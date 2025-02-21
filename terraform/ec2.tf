@@ -3,6 +3,7 @@ resource "aws_key_pair" "deployer" {
   public_key = file("/home/shuhari/.ssh/id_rsa.pub")
 }
 
+
 resource "aws_default_vpc" "default" {
 
 }
