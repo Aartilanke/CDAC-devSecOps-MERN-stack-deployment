@@ -22,15 +22,15 @@
 ## Final Workflow Summary:
 1. Developers push code to GitHub →Webhook Triggers Jenkins CI/CD pipeline.
 2. CI Pipeline:
-   OWASP dependency check.
-   SonarQube static code analysis.
-   Trivy container vulnerability scanning.
-   Docker image build & push to registry.
+-OWASP dependency check.
+-SonarQube static code analysis.
+-Trivy container vulnerability scanning.
+-Docker image build & push to registry.
 
 3.CD Pipeline:
-  Updates deployment manifests in GitHub.
-  ArgoCD deploys the updated application to Kubernetes.
+-Updates deployment manifests in GitHub.
+-ArgoCD deploys the updated application to Kubernetes.
 
 4. Monitoring & Notifications:
-   Prometheus & Grafana monitor system performance.
+-Prometheus & Grafana monitor system performance.
    Jenkins sends email notifications on deployment success or failure
