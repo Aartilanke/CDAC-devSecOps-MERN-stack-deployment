@@ -19,7 +19,7 @@
 - AWS EKS (Kubernetes)
 - Helm (Monitoring using grafana and prometheus)
 
-**##Final Workflow Summary:
+## Final Workflow Summary:
 1. Developers push code to GitHub →Webhook Triggers Jenkins CI/CD pipeline.
 2. CI Pipeline:
 o OWASP dependency check.
