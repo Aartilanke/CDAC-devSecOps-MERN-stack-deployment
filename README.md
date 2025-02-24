@@ -1,6 +1,6 @@
 
 
-# Wanderlust Mega Project End to End Implementation
+# DevSecOps MERN Stack Application Deployment on AWS EKS Cluster
 
 
 <img src="https://github.com/DevMadhup/Wanderlust-Mega-Project/blob/main/Assets/DevSecOps%2BGitOps.gif" />
